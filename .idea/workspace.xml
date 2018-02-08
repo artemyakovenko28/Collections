@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a2eb405-ef8c-48b1-b0d5-02a27eac8939" name="Default" comment="" />
+    <list default="true" id="6a2eb405-ef8c-48b1-b0d5-02a27eac8939" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App00.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App01.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App02.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App03.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App10.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App11.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App12.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App13.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App20.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App20x.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_0_introduction/App21x.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_0_TestListGet.java" afterPath="$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_0_TestListGet.java" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_1_TestListSet.java" afterPath="$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_1_TestListSet.java" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_2_TestListAdd.java" afterPath="$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_2_TestListAdd.java" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_3_TestListRemove.java" afterPath="$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_3_TestListRemove.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/AnagramString.java" afterPath="$PROJECT_DIR$/src/_2_equals/AnagramString.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/App00.java" afterPath="$PROJECT_DIR$/src/_2_equals/App00.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/App01.java" afterPath="$PROJECT_DIR$/src/_2_equals/App01.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/App02.java" afterPath="$PROJECT_DIR$/src/_2_equals/App02.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/App03.java" afterPath="$PROJECT_DIR$/src/_2_equals/App03.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/App04.java" afterPath="$PROJECT_DIR$/src/_2_equals/App04.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/Point2D.java" afterPath="$PROJECT_DIR$/src/_2_equals/Point2D.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/StringArray0.java" afterPath="$PROJECT_DIR$/src/_2_equals/StringArray0.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/StringArray1.java" afterPath="$PROJECT_DIR$/src/_2_equals/StringArray1.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/User0.java" afterPath="$PROJECT_DIR$/src/_2_equals/User0.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/User1.java" afterPath="$PROJECT_DIR$/src/_2_equals/User1.java" />
+      <change beforePath="$PROJECT_DIR$/src/equals/User2.java" afterPath="$PROJECT_DIR$/src/_2_equals/User2.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,8 +41,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App03.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/App03.java">
+      <file leaf-file-name="App10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App10.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -22,8 +51,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_3_TestListRemove.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_3_TestListRemove.java">
+      <file leaf-file-name="App00.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App00.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -32,8 +61,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/User1.java">
+      <file leaf-file-name="App20.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App20.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -42,8 +71,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/App01.java">
+      <file leaf-file-name="App20x.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App20x.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -52,8 +81,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App04.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/App04.java">
+      <file leaf-file-name="App13.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App13.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -62,8 +91,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringArray1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/StringArray1.java">
+      <file leaf-file-name="App11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App11.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -72,8 +101,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringArray0.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/StringArray0.java">
+      <file leaf-file-name="App01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App12.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App12.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -83,7 +122,7 @@
         </entry>
       </file>
       <file leaf-file-name="App02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/equals/App02.java">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App02.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,27 +131,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_0_TestListGet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_0_TestListGet.java">
+      <file leaf-file-name="App21x.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0_introduction/App21x.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App00.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/equals/App00.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -123,6 +155,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/equals/App00.java" />
+        <option value="$PROJECT_DIR$/src/introduction/App21x.java" />
+        <option value="$PROJECT_DIR$/src/_0_introduction/App21x.java" />
       </list>
     </option>
   </component>
@@ -137,6 +171,7 @@
     <option name="width" value="736" />
     <option name="height" value="1017" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -171,7 +206,7 @@
               <item name="Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="Collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="equals" type="462c0819:PsiDirectoryNode" />
+              <item name="_0_introduction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,22 +237,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App01">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
-      <module />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration name="App00" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="equals.*" />
+          <option name="PATTERN" value="_2_equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="equals.App00" />
+      <option name="MAIN_CLASS_NAME" value="_2_equals.App00" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Collections" />
+      <envs />
+    </configuration>
+    <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="_0_introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="_0_introduction.App01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -303,9 +357,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.App00" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App01" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.App00" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.App01" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App00" />
       </list>
     </recent_temporary>
   </component>
@@ -322,15 +381,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518080870175</updated>
-      <workItem from="1518080874940" duration="157000" />
+      <workItem from="1518080874940" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157000" />
+    <option name="totallyTimeSpent" value="2111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -340,9 +400,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33069083" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20110025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -372,7 +432,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/equals/App03.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/App03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -380,7 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_3_TestListRemove.java">
+    <entry file="file://$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_3_TestListRemove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -388,7 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/User1.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/User1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -396,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/App01.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/App01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -404,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/App04.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/App04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -412,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/StringArray1.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/StringArray1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -420,7 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/StringArray0.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/StringArray0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -428,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/App02.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/App02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -436,7 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayList_vs_LinkedList/_0_TestListGet.java">
+    <entry file="file://$PROJECT_DIR$/src/_1_ArrayList_vs_LinkedList/_0_TestListGet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -444,10 +504,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/equals/App00.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_equals/App00.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App00.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App20x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App21x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0_introduction/App01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
