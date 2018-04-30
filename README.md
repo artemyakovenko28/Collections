@@ -28,19 +28,19 @@ Override `equals()`, `hashcode()` and `toString()` correctly for EntityA, Entity
 ### List
 `src/labs/List_ArrayList_LinkedList`
 Create implementations of `ArrayList` and `LinkedList` with such methods:
-- add(T element)
-- add(int index, T element)
-- get(int index)
-- iterator()
-- contains(T element)
-- size()
-- isEmpty()
-- set(int index, T element)
-- remove(T element)
-- remove(int index)
-- equals(Object obj)
-- hashCode()
-- toString()
+- `add(T element)`
+- `add(int index, T element)`
+- `get(int index)`
+- `iterator()`
+- `contains(T element)`
+- `size()`
+- `isEmpty()`
+- `set(int index, T element)`
+- `remove(T element)`
+- `remove(int index)`
+- `equals(Object obj)`
+- `hashCode()`
+- `toString()`
 ### Iterable and Iterator
 `src/labs/Iterable_Iterator`
 - Write an iterator that returns squares of integers
