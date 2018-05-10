@@ -12,7 +12,7 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
     private int size = 0;
 
     /** Array for counting the number of contains() call of each element */
-    private int[] hits = new int[CAPACITY];
+    public int[] hits = new int[CAPACITY];
 
     @SuppressWarnings("unchecked") // this cast is safe
     public LimitedSetImpl() {
@@ -20,6 +20,13 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
 
     }
 
+    /**
+     * Add an element to this set. If, when adding element,
+     * the size of the set exceeds 10 - then it is deleted
+     * element to which there was the least number of hits (calls of the contains () method)
+     * If there are several such elements, first one of them is deleted.
+     * @param t element to add
+     */
     @Override
     public void add(T t) {
         if (size == 10) {
@@ -60,6 +67,7 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
                 }
             }
             data[size] = t;
+            hits[size] = 0;
             size++;
         }
     }
