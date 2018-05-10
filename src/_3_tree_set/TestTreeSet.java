@@ -1,6 +1,6 @@
 package _3_tree_set;
 
-import equals.Point2D;
+import _2_equals.Point2D;
 
 import java.util.Set;
 import java.util.TreeSet;
