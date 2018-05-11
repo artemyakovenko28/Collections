@@ -3,34 +3,77 @@ package limited_set;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class LimitedSetImplTest {
     @Test
-    public void test_LimitedSetImpl() {
-        LimitedSetImpl<String> set = new LimitedSetImpl<>();
+    public void test_add() {
+        LimitedSetOptimizedImpl<Integer> set = new LimitedSetOptimizedImpl<>();
         for (int i = 0; i < 12; i++) {
-            set.add(String.valueOf(i));
+            set.add(i);
         }
-        assertEquals(set.toString(), "11 1 2 3 4 5 6 7 8 9 ");
 
-        for (int i = 0; i < 9; i++) {
-            set.contains(String.valueOf(i));
+        LimitedSet<Integer> testSet = new LimitedSetOptimizedImpl<>();
+        for (int i = 2; i < 12; i++) {
+            testSet.add(i);
         }
-        set.contains("11");
-        set.add("elem1");
-        assertEquals(set.toString(), "11 1 2 3 4 5 6 7 8 elem1 ");
 
-        set.remove("4");
-        set.contains("elem1");
-        for (int i = 2; i < 10; i++) {
-            set.contains(String.valueOf(i));
+        assertEquals(testSet, set);
+    }
+
+    @Test
+    public void test_add_with_removing_element_with_min_hits() {
+        LimitedSet<Integer> set = new LimitedSetOptimizedImpl<>();
+        for (int i = 0; i < 10; i++) {
+            set.add(i);
         }
-        assertEquals(set.toString(), "11 1 2 3 5 6 7 8 elem1 ");
+        for (int i = 1; i < 10; i++) {
+            set.contains(i);
+        }
+        set.add(100);
 
-        set.add("elem2");
-        assertEquals(set.toString(), "11 1 2 3 5 6 7 8 elem1 elem2 ");
+        LimitedSet<Integer> testSet = new LimitedSetOptimizedImpl<>();
+        for (int i = 1; i < 10; i++) {
+            testSet.add(i);
+        }
+        testSet.add(100);
 
-        set.add("elem3");
-        assertEquals(set.toString(), "11 1 2 3 5 6 7 8 elem1 elem3 ");
+        assertEquals(testSet, set);
+    }
+
+    @Test
+    public void test_remove() {
+        LimitedSet<Integer> set = new LimitedSetOptimizedImpl<>();
+        for (int i = 0; i < 10; i++) {
+            set.add(i);
+        }
+        set.remove(5);
+
+        LimitedSet<Integer> testSet = new LimitedSetOptimizedImpl<>();
+        testSet.add(0);
+        testSet.add(2);
+        testSet.add(1);
+        testSet.add(4);
+        testSet.add(3);
+        testSet.add(7);
+        testSet.add(6);
+        testSet.add(8);
+        testSet.add(9);
+
+        assertEquals(testSet, set);
+    }
+
+    @Test
+    public void test_contains() {
+        LimitedSet<Integer> set = new LimitedSetOptimizedImpl<>();
+
+        set.add(null);
+        assertTrue(set.contains(null));
+
+        set.add(20);
+        assertTrue(set.contains(20));
+
+        assertFalse(set.contains(50));
     }
 }

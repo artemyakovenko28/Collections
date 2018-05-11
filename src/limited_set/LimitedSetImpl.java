@@ -12,7 +12,7 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
     private int size = 0;
 
     /** Array for counting the number of contains() call of each element */
-    public int[] hits = new int[CAPACITY];
+    private int[] hits = new int[CAPACITY];
 
     @SuppressWarnings("unchecked") // this cast is safe
     public LimitedSetImpl() {
@@ -137,6 +137,11 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
             }
         }
         return false;
+    }
+
+    @Override
+    public int size() {
+        return size;
     }
 
     @Override
