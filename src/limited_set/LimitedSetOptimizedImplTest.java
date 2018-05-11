@@ -1,15 +1,15 @@
 package limited_set;
 
+import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
 
-public class LimitedSetImplTest {
+public class LimitedSetOptimizedImplTest {
     @Test
     public void test_add() {
-        LimitedSetOptimizedImpl<Integer> set = new LimitedSetOptimizedImpl<>();
+        LimitedSet<Integer> set = new LimitedSetOptimizedImpl<>();
         for (int i = 0; i < 12; i++) {
             set.add(i);
         }
@@ -75,5 +75,15 @@ public class LimitedSetImplTest {
         assertTrue(set.contains(20));
 
         assertFalse(set.contains(50));
+    }
+
+    @Test
+    public void test_size() {
+        LimitedSet<Integer> set = new LimitedSetOptimizedImpl<>();
+        for (int i = 0; i < 5; i++) {
+            set.add(i);
+        }
+
+        assertThat(set.size(), is(5));
     }
 }

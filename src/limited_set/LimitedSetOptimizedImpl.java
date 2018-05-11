@@ -72,8 +72,4 @@ public class LimitedSetOptimizedImpl<T> implements LimitedSet<T> {
     public String toString() {
         return data.keySet().toString();
     }
-
-    public String printHits() {
-        return data.values().toString();
-    }
 }
