@@ -6,9 +6,11 @@ public class LimitedSetOptimizedImpl<T> implements LimitedSet<T> {
 
     private final static int CAPACITY = 10;
     private Map<T, Integer> data;
+    private TreeMap<Integer, Set<T>> hits;
 
     public LimitedSetOptimizedImpl() {
         this.data = new HashMap<>(CAPACITY);
+        this.hits = new TreeMap<>();
     }
 
     @Override
@@ -17,25 +19,29 @@ public class LimitedSetOptimizedImpl<T> implements LimitedSet<T> {
             if (data.containsKey(t)) {
                 return;
             }
-            Map.Entry<T, Integer> min = null;
-            for (Map.Entry<T, Integer> entry : data.entrySet()) {
-                if (min == null || entry.getValue() < min.getValue()) {
-                    min = entry;
-                }
-            }
-            data.remove(min.getKey());
+            Set<T> minSet = hits.firstEntry().getValue();
+            T elemToReplace = minSet.iterator().next();
+            minSet.remove(elemToReplace);
+            data.remove(elemToReplace);
             data.put(t, 0);
         } else {
             if (data.containsKey(t)) {
                 return;
             }
             data.put(t, 0);
+            hits.computeIfAbsent(0, k -> new HashSet<>());
+            hits.get(0).add(t);
         }
     }
 
     @Override
     public boolean remove(T t) {
-        return data.remove(t) != null;
+        Integer hitsAmount = data.remove(t);
+        if (hitsAmount == null) {
+            return false;
+        }
+        hits.get(hitsAmount).remove(t);
+        return true;
     }
 
     @Override
@@ -43,7 +49,11 @@ public class LimitedSetOptimizedImpl<T> implements LimitedSet<T> {
         boolean result = data.containsKey(t);
         if (result) {
             Integer amountOfHits = data.get(t);
-            data.put(t, ++amountOfHits);
+            hits.get(amountOfHits).remove(t);
+            ++amountOfHits;
+            data.put(t, amountOfHits);
+            hits.computeIfAbsent(amountOfHits, k -> new HashSet<>());
+            hits.get(amountOfHits).add(t);
         }
         return result;
     }
